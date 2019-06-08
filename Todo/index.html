@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <section id="do-nav">
+            <label id="add-title" for="add-list">My ToDoList</label>
+            <input type="text" id="add-list" name="add-list" placeholder="some thing..." required>
+            <input type="button" id="add-btn"  class="do-btn" value="add">
+            <input type="button" id="clear-btn"  class="do-btn" value="clear all">
+        </section>
+    </header>
+    <div id="exhibit">
+        <h1>Todo <span class="count todo-num">0</span></h1>
+        <ul id="todo-list">
+         
+        </ul>
+
+        <h1>Done <span class="count done-num">0</span></h1>
+        <ul id="done-list">
+        </ul>
+    </div>
+</body>
+<script src="./js/todo.js"></script>
+</html>
